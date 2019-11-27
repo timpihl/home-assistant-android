@@ -3,6 +3,7 @@
     android:id="@+id/view_flipper"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/Black"
     android:gravity="center"
     android:orientation="vertical"
     android:padding="@dimen/activity_margin">
@@ -10,7 +11,8 @@
     <androidx.appcompat.widget.AppCompatTextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/input_url" />
+        android:text="@string/input_url"
+        android:textColor="@color/White" />
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/url_text_layout"
@@ -22,7 +24,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:hint="@string/input_url_hint" />
+            android:backgroundTint="@color/colorPrimary"
+            android:hint="@string/input_url_hint"
+            android:singleLine="true"
+            android:textColor="@color/White"
+            android:textColorHint="@color/White" />
 
     </com.google.android.material.textfield.TextInputLayout>
 
