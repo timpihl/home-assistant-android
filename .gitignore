@@ -1,9 +1,10 @@
 .DS_Store
 
 local.properties
-google-services.json
 
 *.iml
 .idea/
 .gradle/
 build/
+
+google-services.json
